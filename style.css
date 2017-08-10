@@ -1,0 +1,48 @@
+body {
+ 	margin-top: 25px;
+	background: #547b5c;
+}
+
+.container {
+	background: #D8D8D8;
+	padding: 0px 25px;
+}
+
+@media and (max-width: 768px) {
+	.container {
+		padding: 10px;
+	}
+}
+
+.navbar{
+	min-height: 55px;
+}
+
+h1, h4, h6{
+	font-family: 'Raleway', sans-serif;
+	font-variant: small-caps;
+}
+
+p {
+	text-align: justify;
+}
+
+.img-responsive {
+	max-width: 100%;
+	max-height: auto;
+}
+
+img {
+	margin: 15px 0px 15px 0px;
+}
+
+footer p{
+	text-align: center;
+}
+
+footer {
+	margin: 0px -15px;
+	background: #949494;
+	min-height: 50px;
+	padding-bottom: 20px;
+}
