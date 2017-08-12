@@ -5,7 +5,8 @@ body {
 
 .container {
 	background: #D8D8D8;
-	padding: 0px 25px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 @media and (max-width: 768px) {
@@ -18,13 +19,23 @@ body {
 	min-height: 55px;
 }
 
-h1, h4, h6{
+h1, h3, h4, h6{
 	font-family: 'Raleway', sans-serif;
 	font-variant: small-caps;
 }
 
+h1, h3 {
+	font-weight: 700;
+}
+
+h1 {
+	padding-bottom: 50px;
+}
+
 p {
 	text-align: justify;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .img-responsive {
@@ -45,4 +56,9 @@ footer {
 	background: #949494;
 	min-height: 50px;
 	padding-bottom: 20px;
+}
+
+#banner {
+	width: 40%;
+	max-height: 350px;
 }
